@@ -7,7 +7,7 @@ I ran out of time to work on the App. Because of this the unit testing is lackin
 I added routing to the app because the User might want to navigate directly to the detail page without having to load the users.
 
 ## Production Build
-For production builds I would install runtime-env-cra which allows for the setting of environment variables in kubernetes using helm. I currently use the js file runtime-env.js to populate dev/prod/qa variables. When deploying just set the environment variable to the correct one, and the runtime-env-cra will pick it up. 
+For production builds I would use runtime-env-cra which allows for the setting of environment variables in kubernetes using helm. I currently use the js file runtime-env.js to populate dev/prod/qa variables. When deploying just set the environment variable in helm to the correct one, and the runtime-env-cra will pick it up. 
 
 ## Material UI
 I am using material UI for the grid and cards. More work is needed in the grid to hook up paging for the API.
