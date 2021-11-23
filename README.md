@@ -4,7 +4,7 @@ I ran out of time to work on the App. Because of this the unit testing is lackin
 * Changing the RANDOM_USER_URL to validate that error messages are displaying
 
 ### Overall Approach
-I decided to use React with functional typescript components. I used react-router-dom to setup routing to the detail page. It currently is not being utilized, but the routing is there for future work when the user just wants to navigate to the detail page without selecting a user first. 
+I decided to use React with functional typescript components. I used react-router-dom to setup routing to the detail page. 
 I implemented the list/detail view in One page with react material data grid and cards. 
 For deploying to Kubernetes I utilized the package runtime-env-cra which allows for setting up ENV variables in HELM for the specific environment.
 
