@@ -1,22 +1,31 @@
 # Address Book App
+I ran out of time to work on the App. Because of this the unit testing is lacking. This could be flushed out in the future to include:
+* Testing the detailed component to validate that it is loading the correct data
+* Changing the RANDOM_USER_URL to validate that error messages are displaying
+
+## Routing
+I added routing to the app because the User might want to navigate directly to the detail page without having to load the users.
+
+## Material UI
+I am using material UI for the grid and cards. More work is needed in the grid to hook up paging for the API.
+
 ## Installation
-Run npm install in the project root director.
+Run npm install in the project root directory.
 
 
-### `yarn start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Click on any of the users and the detail information will load. Notice the URL changes. This could be utilized in the future for navigating directly to the detail page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run  build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -25,19 +34,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
