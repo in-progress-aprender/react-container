@@ -1,0 +1,1 @@
+window.__RUNTIME_CONFIG__ = {"NODE_ENV":"development","RANDOM_USER_URL":"https://randomuser.me/api/?results=10"};
