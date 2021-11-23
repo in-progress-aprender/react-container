@@ -17,6 +17,7 @@ Run npm install in the project root directory.
 
 ## Usage
 Open chrome and navigate to http://localhost:3000/. click on one of the users in the grid to see the user details populated. 
+First run npm run start
 
 ### `npm run start`
 
